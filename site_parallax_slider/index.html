@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ca07f40b51.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gallery.css" />
+
+    <title>Festicleta</title>
+  </head>
+  <body>
+    <header>
+      <div class="navBar">
+        <h2 class="logo">FESTICLETA</h2>
+        <nav>
+          <a href="#pag-1">Quem Somos</a>
+          <a href="#pag-2">Eventos</a>
+          <a href="#pag-3">Galeria</a>
+          <a href="#pag-4">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <main>
+        <section class="module parallax parallax-1">
+          <h1 id="pag-1">Festicleta</h1>
+        </section>
+
+        <section class="module content">
+          <div class="container">
+            <h2>Quem somos</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              aperiam vero molestias et cupiditate quod! Repellendus, asperiores
+              iusto, nulla ea quis cupiditate animi culpa modi harum in
+              molestiae cum voluptatibus!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              aperiam vero molestias et cupiditate quod! Repellendus, asperiores
+              iusto, nulla ea quis cupiditate animi culpa modi harum in
+              molestiae cum voluptatibus!
+            </p>
+          </div>
+        </section>
+
+        <section class="module parallax parallax-2">
+          <h1 id="pag-2">Eventos</h1>
+        </section>
+
+        <section class="module content">
+          <div class="container">
+            <h2>Nossos Eventos</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              aperiam vero molestias et cupiditate quod! Repellendus, asperiores
+              iusto, nulla ea quis cupiditate animi culpa modi harum in
+              molestiae cum voluptatibus!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              aperiam vero molestias et cupiditate quod! Repellendus, asperiores
+              iusto, nulla ea quis cupiditate animi culpa modi harum in
+              molestiae cum voluptatibus!
+            </p>
+          </div>
+        </section>
+
+        <section class="module parallax parallax-3">
+          <h1 id="pag-3">Galeria</h1>
+        </section>
+
+        <section class="module content">
+          <div class="container">
+            <div class="gallery">
+              <h2>Galeria de Fotos</h2>
+            </div>
+
+            <div class="caroussel-container">
+
+              <i class="fa-solid fa-angle-left" id="prevBtn"></i>
+              <i class="fa-solid fa-angle-right" id="nextBtn"></i>
+              
+              <div class="caroussel-slide">  
+                <img src="imag\10.jpg" id="lastClone" alt="" />
+                <img src="imag\0.jpg" alt="" />                
+                <img src="imag\1.jpg" alt="" />                
+                <img src="imag\2.jpg" alt="" />                
+                <img src="imag\3.jpg" alt="" />                
+                <img src="imag\4.jpg" alt="" />                
+                <img src="imag\5.jpg" alt="" />                
+                <img src="imag\6.jpg" alt="" />                
+                <img src="imag\7.jpg" alt="" />                
+                <img src="imag\8.jpg" alt="" />                
+                <img src="imag\9.jpg" alt="" />                
+                <img src="imag\10.jpg" alt="" />
+                <img src="imag\0.jpg" id="firstClone" alt="" />
+              </div>
+            </div>                        
+          </div>
+        </section>
+
+        <section class="module parallax parallax-4">
+          <h1 id="pag-4">Contato</h1>
+        </section>
+
+        <section class="module content">
+          <div class="container">
+            <h2 class="contact">Como podemos te ajudar?</h2>
+            <form
+              class="form"
+              action="https://formsubmit.co/originaldiversos@gmail.com"
+              method="POST"
+            >
+              <label for="name">Nome</label>
+              <input
+                id="name"
+                class="formInput"
+                type="text"
+                name="name"
+                placeholder="Digite seu nome..."
+                required
+              />
+
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                class="formInput"
+                type="email"
+                name="email"
+                placeholder="Digite seu e-mail..."
+                required
+              />
+
+              <label for="tel">Telefone (opcional)</label>
+              <input
+                id="tel"
+                class="formInput"
+                type="tel"
+                name="tel"
+                placeholder="Digite seu telefone..."
+              />
+
+              <label for="message">Me diga como posso ajudar?</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Digite sua mensagem..."
+                required
+              ></textarea>
+
+              <input type="hidden" name="_template" value="table" />
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

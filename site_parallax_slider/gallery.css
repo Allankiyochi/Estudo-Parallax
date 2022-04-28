@@ -1,0 +1,85 @@
+.caroussel-container {
+    width: 100%;
+    margin: auto;
+    border: 8px solid rgba(0,0,0,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 black ;
+    overflow: hidden;
+    position: relative;
+    
+}
+.caroussel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.gallery {
+    text-align: center;
+}
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 10;
+    font-size: 50px;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 10;
+    font-size: 50px;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* .balls {
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px; 
+}
+.balls div {
+    padding: 6px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.balls div:hover {
+    background: #fff;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* <div class="balls">
+<div id="0" class="firstImage--img ballImag"></div>
+<div id="1" class="ballImag"></div>
+<div id="2" class="ballImag"></div>
+<div id="3" class="ballImag"></div>
+<div id="4" class="ballImag"></div>
+<div id="5" class="ballImag"></div>
+<div id="6" class="ballImag"></div>
+<div id="7" class="ballImag"></div>
+<div id="8" class="ballImag"></div>
+<div id="9" class="ballImag"></div>
+<div id="10" class="ballImag"></div>
+</div> */
